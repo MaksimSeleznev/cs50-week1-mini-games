@@ -13,6 +13,9 @@ If the guess is incorrect, the program will tell:
 
 The game continues until the correct number is guessed.
 
+There are 3 levels of difficulty.
+On each level you have limited quantity of attempts.
+
 ---
 
 ## 🔢 Version History
@@ -27,3 +30,12 @@ The game continues until the correct number is guessed.
 - Hint system (Too big / Too small)
 - Input validation (range control using do-while)
 - Cleaner function structure
+
+### 🔹 Version 3.0 (Final)
+
+- Difficulty selection
+- Dynamic range
+- Limited attempts (medium/hard)
+- Win/Lose conditions
+- Fully parameterized functions
+- No global variables
