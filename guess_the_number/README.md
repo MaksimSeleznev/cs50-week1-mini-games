@@ -1,26 +1,29 @@
 # 🎲 Guess The Number (C)
 
-## 📌 Description
-A simple console game written in C.
+Simple console game written in C.
 
-The computer generates a random number between 1 and 5.
-The player has one attempt to guess the number.
+## 📖 Description
 
-If the guess is correct — the player wins.
-Otherwise — the player loses.
+The program generates a random number in a fixed range.
+The player must guess it.
 
----
+If the guess is incorrect, the program will tell:
+- "Too big!"
+- "Too small!"
 
-## 🧠 Concepts Used
-
-- Functions
-- Random number generation (`rand`, `srand`, `time`)
-- Macros (`#define`)
-- Boolean logic (`stdbool`)
-- Input validation with `do...while`
+The game continues until the correct number is guessed.
 
 ---
 
-## 🚀 Version
+## 🔢 Version History
 
-v0.1 – Single attempt version
+### 🔹 Version 1.0
+- Random number generation
+- Single attempt
+- Basic win logic
+
+### 🔹 Version 2.0
+- Unlimited attempts
+- Hint system (Too big / Too small)
+- Input validation (range control using do-while)
+- Cleaner function structure
