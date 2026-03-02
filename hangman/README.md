@@ -1,0 +1,54 @@
+# 🎯 Hangman (C Console Game)
+
+A classic Hangman game written in C.
+
+This is part of the **Mini Games Collection**, built to practice core programming concepts such as:
+
+- loops
+- arrays
+- strings
+- game state logic
+- user input handling
+
+---
+
+## 🕹️ How It Works
+
+The program:
+
+1. Stores a hidden word (`table`)
+2. Displays underscores for each letter
+3. Asks the user to guess letters
+4. Reveals correct guesses
+5. Ends when the word is fully revealed
+
+Example:
+
+_ _ _ _ _
+Enter your letter: t
+t _ _ _ _
+Enter your letter: a
+t a _ _ _
+...
+
+YOU WIN!
+
+---
+
+## 🧠 Concepts Practiced
+
+- `while` loops for game flow
+- `for` loops for iteration
+- `bool` state control
+- `strlen()` for word size
+- character comparison
+- simple game logic
+
+---
+
+
+---
+
+## 📦 Version
+
+v1.0 — Initial working release
