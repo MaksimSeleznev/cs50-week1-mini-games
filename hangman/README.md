@@ -25,10 +25,15 @@ The program:
 Example:
 
 _ _ _ _ _
+
 Enter your letter: t
+
 t _ _ _ _
+
 Enter your letter: a
+
 t a _ _ _
+
 ...
 
 YOU WIN!
@@ -52,3 +57,10 @@ YOU WIN!
 ## 📦 Version
 
 v1.0 — Initial working release
+Version 2.0 – Random Word & Attempt Counter
+Added:
+
+Random word selection from internal word list
+Dynamic word length detection using strlen
+Attempt counter displayed each round
+Improved console UI ([Attempt #X] format)

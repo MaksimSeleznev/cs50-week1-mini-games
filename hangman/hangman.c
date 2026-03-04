@@ -1,18 +1,31 @@
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
+#include <time.h>
+//Rundom word
+int rundom_word(int wordsize);
 
 int main(void)
 {
-    int wordsize;
+    srand(time(NULL));
+    int countwords = 11;
     char letter;
-    char word[] = "table";
+    int attempts = 1;
+    //selecting rundom number
+    string words[] = {"table", "apple", "store", "water", "phone", "stone", "glass", "minus", "black", "white", "small"};
     char hidden[] = {'_', '_', '_', '_', '_'};
-    wordsize = strlen(word);
+    int index = rundom_word(countwords);
+    string word = words[index];
+    int wordsize = strlen(word);
+
+
+
     bool stop = false;
     while(!stop)
     {
         bool win = true;
+        printf("[Attempt #%i]\n", attempts);
         for(int x = 0; x < wordsize; x++)
         {
             printf("%c ", hidden[x]);
@@ -46,6 +59,16 @@ int main(void)
             stop = true;
 
         }
+        attempts+=1;
     }
 
+
 }
+
+int rundom_word(int countwords)
+{
+
+    int runword = rand() % countwords;
+    return runword;
+}
+
