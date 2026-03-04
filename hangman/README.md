@@ -57,10 +57,12 @@ YOU WIN!
 ## 📦 Version
 
 v1.0 — Initial working release
-Version 2.0 – Random Word & Attempt Counter
+
+v2.0 – Random Word & Attempt Counter
+
 Added:
 
-Random word selection from internal word list
-Dynamic word length detection using strlen
-Attempt counter displayed each round
-Improved console UI ([Attempt #X] format)
+- Random word selection from internal word list
+- Dynamic word length detection using strlen
+- Attempt counter displayed each round
+- Improved console UI ([Attempt #X] format)
