@@ -66,3 +66,14 @@ Added:
 - Dynamic word length detection using strlen
 - Attempt counter displayed each round
 - Improved console UI ([Attempt #X] format)
+
+v3.0 – Difficulty Levels & Used Letters
+
+Added:
+
+- 4 difficulty levels
+- words grouped by length (3–6 letters)
+- different attempt limits depending on difficulty
+- display of used letters
+- improved win/lose game logic
+- better input validation
