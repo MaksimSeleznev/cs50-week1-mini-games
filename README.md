@@ -68,7 +68,7 @@ This project was created to practice:
 
 # 📦 Releases
 
-- Guess The Number — v1.0
+- Guess The Number — v1.0 / v2.0 / v3.0
 - Hangman — v1.0 / v2.0 / v3.0
 
 ---
